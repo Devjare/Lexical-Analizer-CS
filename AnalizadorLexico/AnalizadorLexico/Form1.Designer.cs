@@ -91,7 +91,7 @@
             this.topPane.Controls.Add(this.btnOpen);
             this.topPane.Controls.Add(this.btnCompile);
             this.topPane.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.topPane.Location = new System.Drawing.Point(3, 32);
+            this.topPane.Location = new System.Drawing.Point(3, 31);
             this.topPane.Name = "topPane";
             this.topPane.Size = new System.Drawing.Size(986, 21);
             this.topPane.TabIndex = 3;
@@ -137,7 +137,7 @@
             this.btnCompile.Name = "btnCompile";
             this.btnCompile.Size = new System.Drawing.Size(78, 21);
             this.btnCompile.TabIndex = 6;
-            this.btnCompile.Text = "Play :v";
+            this.btnCompile.Text = "Play";
             this.btnCompile.UseVisualStyleBackColor = false;
             this.btnCompile.Click += new System.EventHandler(this.btnCompile_Click);
             // 
@@ -145,9 +145,9 @@
             // 
             this.panel2.Controls.Add(this.splitContainer1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(3, 59);
+            this.panel2.Location = new System.Drawing.Point(3, 58);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(986, 470);
+            this.panel2.Size = new System.Drawing.Size(986, 469);
             this.panel2.TabIndex = 5;
             // 
             // splitContainer1
@@ -164,8 +164,8 @@
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.dgvTokens);
-            this.splitContainer1.Size = new System.Drawing.Size(986, 470);
-            this.splitContainer1.SplitterDistance = 313;
+            this.splitContainer1.Size = new System.Drawing.Size(986, 469);
+            this.splitContainer1.SplitterDistance = 312;
             this.splitContainer1.TabIndex = 0;
             // 
             // splitContainer2
@@ -181,7 +181,7 @@
             // splitContainer2.Panel2
             // 
             this.splitContainer2.Panel2.Controls.Add(this.txtCode);
-            this.splitContainer2.Size = new System.Drawing.Size(986, 313);
+            this.splitContainer2.Size = new System.Drawing.Size(986, 312);
             this.splitContainer2.SplitterDistance = 328;
             this.splitContainer2.TabIndex = 1;
             // 
@@ -192,7 +192,7 @@
             this.txtErrors.Location = new System.Drawing.Point(-526, 0);
             this.txtErrors.Multiline = true;
             this.txtErrors.Name = "txtErrors";
-            this.txtErrors.Size = new System.Drawing.Size(854, 313);
+            this.txtErrors.Size = new System.Drawing.Size(854, 312);
             this.txtErrors.TabIndex = 1;
             // 
             // txtCode
@@ -205,7 +205,7 @@
             this.txtCode.Name = "txtCode";
             this.txtCode.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
             this.txtCode.ShowSelectionMargin = true;
-            this.txtCode.Size = new System.Drawing.Size(654, 313);
+            this.txtCode.Size = new System.Drawing.Size(654, 312);
             this.txtCode.TabIndex = 0;
             this.txtCode.Text = "";
             this.txtCode.SelectionChanged += new System.EventHandler(this.txtCode_SelectionChanged);
@@ -258,9 +258,9 @@
             this.panel1.Controls.Add(this.lblColumn);
             this.panel1.Controls.Add(this.lblLines);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(3, 535);
+            this.panel1.Location = new System.Drawing.Point(3, 533);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(986, 16);
+            this.panel1.Size = new System.Drawing.Size(986, 18);
             this.panel1.TabIndex = 6;
             // 
             // lblColumn
@@ -293,7 +293,7 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(3, 3);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(986, 23);
+            this.panel3.Size = new System.Drawing.Size(986, 22);
             this.panel3.TabIndex = 7;
             // 
             // btnMinimize
@@ -305,7 +305,7 @@
             this.btnMinimize.ForeColor = System.Drawing.Color.White;
             this.btnMinimize.Location = new System.Drawing.Point(747, 0);
             this.btnMinimize.Name = "btnMinimize";
-            this.btnMinimize.Size = new System.Drawing.Size(78, 23);
+            this.btnMinimize.Size = new System.Drawing.Size(78, 22);
             this.btnMinimize.TabIndex = 6;
             this.btnMinimize.Text = "__";
             this.btnMinimize.UseVisualStyleBackColor = false;
@@ -319,7 +319,7 @@
             this.btnMaximize.ForeColor = System.Drawing.Color.White;
             this.btnMaximize.Location = new System.Drawing.Point(825, 0);
             this.btnMaximize.Name = "btnMaximize";
-            this.btnMaximize.Size = new System.Drawing.Size(78, 23);
+            this.btnMaximize.Size = new System.Drawing.Size(78, 22);
             this.btnMaximize.TabIndex = 5;
             this.btnMaximize.Text = "•";
             this.btnMaximize.UseVisualStyleBackColor = false;
@@ -333,7 +333,7 @@
             this.btnClose.ForeColor = System.Drawing.Color.White;
             this.btnClose.Location = new System.Drawing.Point(903, 0);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(83, 23);
+            this.btnClose.Size = new System.Drawing.Size(83, 22);
             this.btnClose.TabIndex = 4;
             this.btnClose.Text = "X";
             this.btnClose.UseVisualStyleBackColor = false;
