@@ -147,7 +147,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(3, 58);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(986, 469);
+            this.panel2.Size = new System.Drawing.Size(986, 467);
             this.panel2.TabIndex = 5;
             // 
             // splitContainer1
@@ -164,8 +164,8 @@
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.dgvTokens);
-            this.splitContainer1.Size = new System.Drawing.Size(986, 469);
-            this.splitContainer1.SplitterDistance = 312;
+            this.splitContainer1.Size = new System.Drawing.Size(986, 467);
+            this.splitContainer1.SplitterDistance = 310;
             this.splitContainer1.TabIndex = 0;
             // 
             // splitContainer2
@@ -181,7 +181,7 @@
             // splitContainer2.Panel2
             // 
             this.splitContainer2.Panel2.Controls.Add(this.txtCode);
-            this.splitContainer2.Size = new System.Drawing.Size(986, 312);
+            this.splitContainer2.Size = new System.Drawing.Size(986, 310);
             this.splitContainer2.SplitterDistance = 328;
             this.splitContainer2.TabIndex = 1;
             // 
@@ -192,7 +192,7 @@
             this.txtErrors.Location = new System.Drawing.Point(-526, 0);
             this.txtErrors.Multiline = true;
             this.txtErrors.Name = "txtErrors";
-            this.txtErrors.Size = new System.Drawing.Size(854, 312);
+            this.txtErrors.Size = new System.Drawing.Size(854, 310);
             this.txtErrors.TabIndex = 1;
             // 
             // txtCode
@@ -205,7 +205,7 @@
             this.txtCode.Name = "txtCode";
             this.txtCode.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
             this.txtCode.ShowSelectionMargin = true;
-            this.txtCode.Size = new System.Drawing.Size(654, 312);
+            this.txtCode.Size = new System.Drawing.Size(654, 310);
             this.txtCode.TabIndex = 0;
             this.txtCode.Text = "";
             this.txtCode.SelectionChanged += new System.EventHandler(this.txtCode_SelectionChanged);
@@ -258,9 +258,9 @@
             this.panel1.Controls.Add(this.lblColumn);
             this.panel1.Controls.Add(this.lblLines);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(3, 533);
+            this.panel1.Location = new System.Drawing.Point(3, 531);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(986, 18);
+            this.panel1.Size = new System.Drawing.Size(986, 20);
             this.panel1.TabIndex = 6;
             // 
             // lblColumn
